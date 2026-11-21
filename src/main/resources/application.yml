@@ -21,7 +21,7 @@ spring:
       max-request-size: 30MB
 
 server:
-  port: 8081
+  port: ${SERVER_PORT:8085}
   error:
     whitelabel:
       enabled: false

@@ -36,7 +36,7 @@ TalentCore is a modern, enterprise-grade Human Resource Management System (HRMS)
 
 ---
 
-### 3. Enterprise Administration, Dashboards & Security (Prompt 4)
+### 3. Enterprise Administration, Dashboards & Security
 - **User & Access Management (`/users`, `/api/v1/users`)**: Full user lifecycle, BCrypt password hashing, account activation/deactivation, password reset, and employee account linking.
 - **Role-Based Access Control (RBAC)**: Support for `ROLE_SUPER_ADMIN`, `ROLE_COMPANY_ADMIN`, `ROLE_HR_ADMIN`, `ROLE_MANAGER`, and `ROLE_EMPLOYEE` with backend endpoint and service-layer `@PreAuthorize` security checks.
 - **Role-Based Dashboards (`/dashboard`)**:
@@ -108,13 +108,13 @@ mvnw.cmd spring-boot:run
 ```
 
 Access the application in your browser:
-- Application URL: `http://localhost:8081`
-- Login Page: `http://localhost:8081/login`
-- Users & Access Management: `http://localhost:8081/users`
-- Announcements: `http://localhost:8081/announcements`
-- Audit Logs: `http://localhost:8081/audit-logs`
-- Notifications: `http://localhost:8081/notifications`
-- Health Endpoint: `http://localhost:8081/api/v1/health`
+- Application URL: `http://localhost:8085`
+- Login Page: `http://localhost:8085/login`
+- Users & Access Management: `http://localhost:8085/users`
+- Announcements: `http://localhost:8085/announcements`
+- Audit Logs: `http://localhost:8085/audit-logs`
+- Notifications: `http://localhost:8085/notifications`
+- Health Endpoint: `http://localhost:8085/api/v1/health`
 
 Default Seed Credentials:
 - **Admin**: `admin` / `Admin@123`
